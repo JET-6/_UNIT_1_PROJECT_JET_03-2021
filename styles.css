@@ -1,0 +1,164 @@
+/* STYLESHEET FOR JAMESWORLD 2.0 */
+/* EDITS FOR OVERALL PAGE */
+* {
+  margin: 1px;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* I WANT TO KEEP THE BACKGROUND in THE SAME POSITION */
+html {
+  background: url(images/lionsgateNight.jpg) no-repeat center center fixed;
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  width: auto;
+  position: relative;
+  opacity: 15%;
+}
+
+/* QUICK LIL FOOTY */
+#Footer {
+  font-family: 'Anton', sans-serif;
+  color: maroon;
+  text-align: center;
+}
+
+/* JAMESWORLD2.0 FONT + FEATURES */
+.head-border {
+  color: green;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  text-shadow: 0 0 10px maroon;
+  border-radius: 5px;
+/* HEADER BORDER*/
+  border-bottom: inset 7px green;
+}
+
+/* NAVBAR HAPPENS HERE */
+.navBar {
+  overflow: hidden;
+  font-family: 'Anton', sans-serif;
+  border-radius: 5px;
+  /* This is me trying to implement a floating navbar */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  /* Figured it out thanks to W3school!! :) */
+  /* DO I WANT NEED THIS vv */
+    font-weight: 600;
+    text-shadow: maroon;
+}
+.navBar a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 10px maroon;
+  font-size: 20px;
+  color: white;
+  padding: 10px 15px;
+}
+#sugs {
+  float: right;
+}
+
+/* Listicles that I need to do something with */
+.para_list {
+  font-family: arial;
+  font-size: 1em;
+  color: white;
+}
+
+/* extra stuff if EXTRA HTML pages need it */
+h1 {
+  color: green;
+  font-family: 'Anton', sans-serif;
+}
+h2, h3 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-weight: lighter;
+  text-align: left;
+}
+
+/* DROPDOWN STUFF */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .funbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  text-shadow: 0 0 10px maroon;
+  padding: 10px 15px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight: inherit;
+}
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: rgba(115, 0, 0, 0.7);
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .funbtn {
+  background: rgba(115, 0, 0, 0.7);
+}
+.dropdown-content a:hover {
+  background: rgba(115, 0, 0, 0.7);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: sticky;
+}
+.dropdown:hover a:visited {
+  background: rgba(0, 140, 255, 0.7);
+  color: hotpink;
+}
+
+/* THIS IS FOR FUTURE>TABLE */
+.futureTable {
+  margin: auto;
+  /* border: 3px inset plum; */
+  border-collapse: collapse;
+  font-family: 'Anton', sans-serif;
+}
+table {
+  border: 3px inset plum;
+}
+td {
+  border: 1px solid pink;
+}
+#timeline {
+  text-align: center;
+}
+#years {
+  font-weight: bolder;
+  color: green;
+  }
+  #theWhat {
+    font-weight: lighter;
+    text-align: right;
+  }
